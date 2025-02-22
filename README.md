@@ -7,6 +7,7 @@ This project implements a fully connected neural network from scratch to classif
 - Implements a multi-layer perceptron (MLP) for digit classification.
 - Uses NumPy for all matrix operations and calculations.
 - Performs forward and backward propagation manually.
+- Costumizable number of neurons per layer
 - Trains the model using stochastic gradient descent (SGD) with momentum.
 - Includes functions for weight initialization, activation functions, and loss computation.
 - Evaluates model performance on the MNIST test dataset.
@@ -30,7 +31,7 @@ cd MNIST-NN-from-scratch
 ## Neural Network Architecture
 The network consists of:
 - Input Layer: 784 neurons (28x28 pixels)
-- Hidden Layers: 2 layers with 10 neurons each and ReLU activation
+- Hidden Layers: 2 layers with costumizable neuron values and ReLU activation
 - Output Layer: 10 neurons (one for each digit, using softmax activation)
 
 ## Results

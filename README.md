@@ -13,8 +13,7 @@ This project implements a fully connected neural network from scratch to classif
 - Evaluates model performance on the MNIST test dataset.
 
 ## Dataset
-The project uses the MNIST dataset, which consists of 60,000 training images and 10,000 test images of handwritten digits (0-9). Each image is a 28x28 grayscale pixel array.
-
+The project uses the MNIST dataset, which consists of 42,000 training images and 28,000 test images of handwritten digits (0-9). Each image is a 28x28 grayscale pixel array
 ## Installation
 ### Prerequisites
 Ensure you have Python installed along with the required libraries:

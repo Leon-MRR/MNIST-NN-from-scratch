@@ -29,8 +29,8 @@ cd MNIST-NN-from-scratch
 
 ## Neural Network Architecture
 The network consists of:
-- Input Layer: 784 neurons (28x28 pixels)
-- Hidden Layers: 2 layers with costumizable neuron values and ReLU activation
+- Input Layer: 784 entries (28x28 pixels)
+- Hidden Layers: 2 layers with costumizable neuron numbers and ReLU activation
 - Output Layer: 10 neurons (one for each digit, using softmax activation)
 
 ## Results
